@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Trae IDE\BladeRunnerPhoto\enhance_viewer.py", line 258, in <module>
+    main()
+  File "C:\Trae IDE\BladeRunnerPhoto\enhance_viewer.py", line 222, in main
+    view = EnhanceView(pil_img)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Trae IDE\BladeRunnerPhoto\enhance_viewer.py", line 37, in __init__
+    self.setRenderHint(self.RenderHint.Antialiasing, True)
+                       ^^^^^^^^^^^^^^^
+AttributeError: 'EnhanceView' object has no attribute 'RenderHint'. Did you mean: 'renderHints'?
